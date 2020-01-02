@@ -1,0 +1,292 @@
+# Page settings
+
+baseURL = "http://example.org/"
+languageCode = "en"
+title = ""
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+
+
+
+
+[params]
+    author = "CowboySmall"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Swaroop B B"
+        tagline = "Linux System Administrator"
+        avatar = "avatar.png"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "INDIA"
+
+        [[params.contact.list]]
+        icon = "fas fa-address-book"
+        url = "tel:+91 956-714-9005"
+        text = "+91 9567149005"
+        [[params.contact.list]]
+        icon = "fas fa-envelope"
+        url = "mailto:swaroopchirayinkil@gmail.com"
+        text = "swaroopchirayinkil@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "https://in.linkedin.com/in/swaroop-b-b-6b888a159"
+        text = "swaroop"
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "Apache/Nginx"
+        [[params.skills.list.items]]
+        details = "MySQL/MariaDB"
+        [[params.skills.list.items]]
+        details = "cPanel/Plesk"
+        [[params.skills.list.items]]
+        details = "CentOS/Redhat/Windows"
+        [[params.skills.list.items]]
+        details = "AWS/OnApp"
+        [[params.skills.list.items]]
+        details = "AWS - S3/AWS - IAM"
+        [[params.skills.list.items]]
+        details = "Cloud Front/Amazon EC2"
+
+        # [[params.skills.list]]
+        # title = "Professional"
+        # [[params.skills.list.items]]
+        # details = "Effective communication"
+        # [[params.skills.list.items]]
+        # details = "Team player"
+        # [[params.skills.list.items]]
+        # details = "Strong problem solver"
+        # [[params.skills.list.items]]
+        # details = "Good time management"
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "Master of Computer Application"
+        university = "Noorul Islam College of Engineering, Kanyakumari"
+        dates = "2015 - 2017"
+        [[params.education.list]]
+        degree = "B.Sc Physics with computer application"
+        university = "Sree Narayana College, Kollam"
+        dates = "2010 - 2013"
+
+
+
+
+
+
+
+
+    [params.awards]
+        enable = true
+
+        [[params.awards.list]]
+        name = "RHCE (EX300)"
+        body = "Red Hat Certified"
+        date = "2018"
+        [[params.awards.list]]
+        name = "RHCSA (EX200)"
+        body = "Red Hat Certified"
+        date = "2018"
+        [[params.awards.list]]
+        name = "AWS Certified Solutions Architect - Associate"
+        body = "AWS Certified"
+        date = "2019"
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Professional"
+        [[params.languages.list]]
+        name = "Malayalam"
+        level = "Native"
+    
+
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Distro hopping(Linux)"
+        [[params.interests.list]]
+        name = "Butterfly gardening"
+        [[params.interests.list]]
+        name = "Photography"
+        [[params.interests.list]]
+        name = "Travelling"
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "Motivated Linux System Administrator with proven knowledge in various open-source operating systems. Committed to improving network uptime and Personal Info system availability.My key interests are in nature and technology, Currently learning out new technologies like Ansible, Docker, Git and improving my technical skills as much as I can."
+
+
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Junior System Administrator"
+        dates = "June. 2018 - Present"
+        company = "HostDime"
+        details = "Joining HostDime India, I was assigned to the technical support team of the company to work primarily on identifying issues and monitoring linux servers. Also we were responsible for ensuring correct incident categorization, prioritization, identification of root cause for issues through tickets, chat and calls, and escalation to responsible Tier Support or Process."
+        
+
+        [[params.experience.list]]
+        title = "Work process:"
+        [[params.experience.list.items]]
+        details = "Monitoring system resources, logs, disk usage, scheduling, and monitoring backups."
+        [[params.experience.list.items]]
+        details = "Installing and Upgrading the Linux server software and kernel, Package Administration(RPM & YUM)."
+        [[params.experience.list.items]]
+        details = "Configuring and maintaining web servers according to client requirements"
+        [[params.experience.list.items]]
+        details = "Optimize system security and performance with proactive changes such as tweaking web servers and MySQL databases."
+        [[params.experience.list.items]]
+        details = "Implemented company policies, technical procedures and standards for preserving integrity and security of data, reports and access."
+        [[params.experience.list.items]]
+        details = "Currently deputed as Data-center Operations Engineer to join the team who manages the privately-owned data center infrastructure of HostDime located in Delhi."
+
+
+
+
+
+
+
+
+
+
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Project Lorem Ipsum"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+        [[params.projects.list]]
+        title = "Project Sed Fringilla"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+        [[params.projects.list]]
+        title = "Project Praesent"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+
+
+
+
+
+
+
+
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Climbing, Snowboarding, Photography, Travelling"
+
+
+
+
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "https://in.linkedin.com/in/swaroop-b-b-6b888a159"
+        title = ""
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "https://github.com/swaroopchirayinkil"
+        title = ""
+        [[params.social.list]]
+        icon = "fab fa-instagram"
+        url = "https://www.instagram.com/swaroopbigboy"
+        title = ""
+
+
+
+
+
